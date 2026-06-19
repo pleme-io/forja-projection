@@ -1,0 +1,17 @@
+# forja-projection — THE one seam of the pleme-io generation substrate.
+# See theory/GENERATION-SUBSTRATE.md §4.1 (backlog #1). The shared `Projection`
+# trait the fleet rediscovered four times (iac-forge `Backend`, hata-emit
+# `Projection`, repo-forge `Synthesizer`, caixa copy-paste) lifted into one crate.
+[package]
+name = "forja-projection"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/pleme-io/forja-projection"
+description = "The one shared Projection trait of the pleme-io generation substrate — a typed primary structure projects every artifact (content-addressed, BLAKE3) through one seam."
+
+[dependencies]
+# Every emitted artifact is content-addressed for free — the provenance the GEN
+# TYPED-SPEC freshness gate + drift detection stand on.
+blake3 = "1"
+thiserror = "1"
