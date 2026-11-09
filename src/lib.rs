@@ -1,5 +1,5 @@
-//! `forja-projection` — **THE one seam** of the pleme-io generation substrate
-//! (theory/GENERATION-SUBSTRATE.md §4.1, backlog #1). A typed **primary
+//! `forja-projection` — **THE one seam** of the pleme-io generation substrate.
+//! A typed **primary
 //! structure** projects every artifact through ONE trait, so a new target /
 //! backend / platform is a new [`Projection`] impl and a catalog row — **nothing
 //! else**.
@@ -143,7 +143,7 @@ impl EmitError {
 }
 
 /// **THE seam:** a projection of a typed primary structure `S` into one or more
-/// generated artifacts (theory/GENERATION-SUBSTRATE.md §4.1). A new target /
+/// generated artifacts. A new target /
 /// backend / platform is one `impl Projection<S>` + a catalog row — nothing
 /// else. The four fleet rediscoveries repoint onto this; distinct primary
 /// structures share ONLY this seam, never the source type.

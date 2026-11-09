@@ -1,5 +1,5 @@
 # forja-projection — THE one seam of the pleme-io generation substrate.
-# See theory/GENERATION-SUBSTRATE.md §4.1 (backlog #1). The shared `Projection`
+# The shared `Projection`
 # trait the fleet rediscovered four times (iac-forge `Backend`, hata-emit
 # `Projection`, repo-forge `Synthesizer`, caixa copy-paste) lifted into one crate.
 [package]
